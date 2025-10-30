@@ -49,3 +49,6 @@ function removeValue(array, value) {
 // array for question 1.1
 let array = [11, 5, 8, 3, 25, 16, 31, 45, 14, 20];
 console.log(array);
+
+array.sort((a, b) => a - b);
+console.log(array);
