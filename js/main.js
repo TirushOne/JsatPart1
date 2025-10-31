@@ -90,11 +90,9 @@ function removeValue(array, value) {
     array.splice(i, 1);
 }
 
-// array for question 1.1
 let array = [11, 5, 8, 3, 25, 16, 31, 45, 14, 20];
 console.log(array);
 
-// answer for question 1.3
 array.push(19);
 array.push(23);
 array.push(30);
@@ -109,7 +107,6 @@ function removeValue(array, target) {
   array.splice(index, 1);
 }
 
-// answer for question 1.4
 removeValue(array, 8);
 removeValue(array, 31);
 
