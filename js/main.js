@@ -57,3 +57,15 @@ array.push(30);
 array.sort((a, b) => a - b);
 
 console.log(array);
+
+// removes a target value from an array. 
+// it must exist though or else unepected results may occure.
+function removeValue(array, target) {
+  let index = binarySearch(array, target);
+  array.splice(index, 1);
+}
+
+// answer for question 1.4
+removeValue(array, 8);
+removeValue(array, 31);
+
