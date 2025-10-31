@@ -28,7 +28,7 @@ test(
     let arr = [1, 2, 3, 4];
     console.log(`searching the following array: ${arr} \n for the number 3`);
     let res = binarySearch(arr, 3);
-    console.log(`returned index: res`);
+    console.log(`returned index: ${res}`);
     return res == 2;
   }
 );
@@ -39,7 +39,7 @@ test(
     let arr = [1, 2, 3, 4];
     console.log(`searching the following array: ${arr} \n for the number 5`);
     let res = binarySearch(arr, 5);
-    console.log(`returned index: res`);
+    console.log(`returned index:  ${res}`);
     return res == -1;
   }
 );
@@ -63,7 +63,7 @@ test(
     let arr = [4, 7, 6];
     console.log(`searching the following array: ${arr} \n for the number 7`);
     let res = binarySearch(arr, 7);
-    console.log(`returned index: res`);
+    console.log(`returned index:  ${res}`);
     return res == 2;
   }
 );
@@ -74,7 +74,7 @@ test(
     let arr = [4, 7, 6];
     console.log(`searching the following array: ${arr} \n for the number 8`);
     let res = binarySearch(arr, 8);
-    console.log(`returned index: res`);
+    console.log(`returned index:  ${res}`);
     return res == -1;
   }
 );
